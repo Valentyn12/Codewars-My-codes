@@ -1,0 +1,7 @@
+# Codewars-My-codes
+def get_middle(s):
+    my_len = len(s)
+    if my_len % 2 == 0:
+        return s[int(my_len/2 - 1): int(my_len/2 + 1)]
+    else:
+        return s[int(my_len / 2)]
